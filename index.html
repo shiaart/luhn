@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="luhn.js"></script>
+  </head>
+  <script>
+    console.log(validateCreditCard("5610591081018250"));
+    console.log(validateCreditCard("12334"));
+    console.log(validateCreditCard("  5610591081018250  "));
+    console.log(validateCreditCard("5610  10810182 "));
+    console.log(validateCreditCard("5610 5910 8101 8250"));
+    console.log(validateCreditCard("5610 5910 85101 8250"));
+    console.log(validateCreditCard("5610 59108 1082"));
+    console.log(validateCreditCard("          "));
+    console.log(validateCreditCard("?????????"));
+    console.log(validateCreditCard("0000000000000"));
+  </script>
+  <body>
+    <h1>Check dev console</h1>
+    <br>Ctrl + Shift + I
+  </body>
+
+</html>
